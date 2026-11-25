@@ -1,0 +1,42 @@
+{
+  "run_id": "cwru_105_0_chronological_flow_L512_H96_seed42",
+  "dataset": "cwru_105_0_chronological",
+  "model": "flow_matching",
+  "L": 512,
+  "H": 96,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 96,
+  "epochs": 30,
+  "best_epoch": 30,
+  "best_validation_MAE": 0.46885873594888317,
+  "best_validation_RMSE": 0.6556120174268326,
+  "test_MAE": 0.5609624382549738,
+  "test_RMSE": 0.802266831613354,
+  "training_seconds": 67.53449169895612,
+  "evaluation_seconds": 0.5993469678796828,
+  "num_samples": 8,
+  "sampling_steps": 8,
+  "num_train_origins": 2210,
+  "num_validation_origins": 242,
+  "num_test_origins": 242,
+  "target_shape": [
+    242,
+    96
+  ],
+  "predictive_mean_shape": [
+    242,
+    96
+  ],
+  "sample_shape": [
+    242,
+    8,
+    96
+  ],
+  "target_mean": -0.0065470365807414055,
+  "target_std": 1.0033519268035889,
+  "prediction_mean": 0.020257892087101936,
+  "prediction_std": 0.6750187277793884,
+  "checkpoint_path": "./logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e30/best.pt",
+  "peak_gpu_memory_bytes": 193216512
+}

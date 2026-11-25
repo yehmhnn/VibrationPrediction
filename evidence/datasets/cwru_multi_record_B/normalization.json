@@ -1,0 +1,24 @@
+{
+  "formula": "(x - train_mean) / train_std",
+  "estimator": "sample-weighted population mean/std; float64, ddof=0",
+  "training_record_ids": [
+    "105_0",
+    "106_1",
+    "118_0",
+    "119_1",
+    "130@6_0",
+    "131@6_1"
+  ],
+  "training_sample_count": 731654,
+  "train_mean": 0.010496160688842994,
+  "train_std": 0.41000491194742045,
+  "source_sha256": {
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/IR/007/105_0.mat": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab",
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/IR/007/106_1.mat": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883",
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/B/007/118_0.mat": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e",
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/B/007/119_1.mat": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330",
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/OR/007/@6/130@6_0.mat": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d",
+    "./datasets/cwru/12k_Drive_End_Bearing_Fault_Data/OR/007/@6/131@6_1.mat": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb"
+  },
+  "uses_validation_or_test": false
+}

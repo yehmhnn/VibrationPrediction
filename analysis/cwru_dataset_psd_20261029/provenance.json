@@ -1,0 +1,54 @@
+{
+  "source_sha256": {
+    "VibrationPrediction_Report_Revised/source_artifacts/datasets/processed/cwru_105_0_chronological/metadata.json": "3e35f309dfb6bbc8d132b7a8b7130478dcaa07fa1660b32466b19b0095cc4599",
+    "VibrationPrediction_Report_Revised/source_artifacts/datasets/processed/cwru_105_0_chronological/manifest.csv": "0eb40bde52c24e7feb6c2ff9b2db0cfd9a527c03ea4615e5ab8e7dada3602a15",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/manifest.csv": "819fd31dbff0aa431882c159354d07c9158b11c646c74808e4fa94eefb880b24",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/metadata.json": "fe666a136af8a99ebab186eb2b69f11735718e48d1dbb59651e6388b75b7919d",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/normalization.json": "2bde77cfd9d52935fd4d672b342c54a36c85202faa5c6491b64654dc8b7ff30f",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_tsflow_objective_v1/config.json": "1653a0b318a8af0975079dfd19b451378c3df7e352034ea92ac655707d210f7f",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_tsflow_objective_v1/result.json": "7e81e974270f446358a7fd6c11a67bbbbb55089e455bf54b851830f7a223c8fe",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_timesnet_objective_v1/config.json": "74f3818f7cc06f5fcc20c5a314b11a55ae18926f1a46c66e130050b68426a5f3",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_timesnet_objective_v1/result.json": "0043788246a0ed7b4a95df94d5e4025677d027aca0db222ed794976947b5df02",
+    "VibrationPrediction_Report_Revised/source_artifacts/scripts/preprocess_cwru_within_record.py": "5083d0fd40f26723fffad229972e76ca88c4f0cdbc0138471f74cab22901d2ff",
+    "VibrationPrediction_Report_Revised/source_artifacts/scripts/sequence_data.py": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+    "VibrationPrediction_Report_Revised/source_artifacts/scripts/tsflow_data.py": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/scripts/run_convergence_experiment.py": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/single_105_0_tsflow_objective_v2/config.json": "706e7344a9e202a8736f421c81a3e2b93282c867ca3afb0371f2c68af502861f",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/single_105_0_timesnet_objective_v2/config.json": "7c2c5d61c172f6593bd303ee8b714c365381c1f6d01ce0f6ff05acb60dad1583",
+    "VibrationPrediction_Report_Revised/data/reconstructed/inference_provenance.json": "80b924608ee409794d54fc5f09c7286d9f266ed45c47068fda0554ea23214504",
+    "analysis/studyII_welch_20261028/welch_spectra.csv": "902bb00a973433a5cc8da20cb258a1765f1451fca739002a3ee341478dc5bbdf",
+    "analysis/studyII_welch_20261028/record_summary.csv": "c72505f022f39aaf4f39256fce5c1bf49a82450c5f331489305937d883276041",
+    "analysis/studyII_welch_20261028/provenance_and_checks.json": "57bc35daa9ab6bb3a6eb4d4a087f82edf0bfbafd41e2f71b5c2d53c180bb11fa"
+  },
+  "versions": {
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "no_reserved_signal_access": true,
+  "source_psd_parameters": {
+    "window": "hann",
+    "nperseg": 8192,
+    "noverlap": 4096,
+    "nfft": 8192,
+    "detrend": "constant",
+    "scaling": "density"
+  },
+  "figureA_ids": [
+    "105_0",
+    "118_0",
+    "130@6_0"
+  ],
+  "figureB_ids": [
+    "105_0",
+    "106_1",
+    "107_2",
+    "118_0",
+    "119_1",
+    "120_2",
+    "130@6_0",
+    "131@6_1",
+    "132@6_2"
+  ],
+  "studyI_original_samples": 121265,
+  "studyI_retained_samples": 118865
+}

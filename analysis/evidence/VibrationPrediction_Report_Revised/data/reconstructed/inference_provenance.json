@@ -1,0 +1,71 @@
+{
+  "protocol": "within-record 105_0 chronological",
+  "L": 512,
+  "H": 96,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 96,
+  "num_origins": 242,
+  "inference_only": true,
+  "device": "cuda",
+  "batch_size": 32,
+  "torch_version": "2.5.1.post306",
+  "timesnet_checkpoint_epoch_one_based": 23,
+  "timesnet_budget": 30,
+  "tsflow_budget": 100,
+  "exact_target_match": true,
+  "timesnet_reproduced": {
+    "MAE": 0.5597013485138815,
+    "RMSE": 0.7688488886700849
+  },
+  "tsflow_recomputed": {
+    "MAE": 0.5300208912170346,
+    "RMSE": 0.7635300609552788
+  },
+  "waveform_selection_rule": "Closest to median across origins of mean(TSFlow MSE, TimesNet MSE); first index breaks ties",
+  "waveform_index": 61,
+  "source_context_start": 103348,
+  "source_forecast_start": 103860,
+  "source_files": [
+    {
+      "path": "./logs/convergence/timesnet_L512_H96_seed42_e30/checkpoints/best.ckpt",
+      "sha256": "5c9e000e852d3180943b9580389b3a3f55a49fdfb0a424e8347b7e153a17b9f9"
+    },
+    {
+      "path": "./logs/convergence/timesnet_L512_H96_seed42_e30/result.json",
+      "sha256": "61b012b37282f0d6f075321043dce07d1dfcb462221f25e2a82e9ab350010a15"
+    },
+    {
+      "path": "./logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e100/predictive_mean.npy",
+      "sha256": "e9121d546ceeee50cdeb0d32d17bae88137c2ccdd3c1679365289ce1ebe7bcd5"
+    },
+    {
+      "path": "./logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e100/targets.npy",
+      "sha256": "d1ad2fa990d69692bf34503908a1b33cb4772e18954515b7af5afaa17dd9171e"
+    },
+    {
+      "path": "./logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e100/result.json",
+      "sha256": "9d7209ed4a580f1475545c9fc62b7d57cd850f3b4da88705d1e8a019a06f5bb7"
+    },
+    {
+      "path": "./datasets/processed/cwru_105_0_chronological/105_0_test.npy",
+      "sha256": "f5b0d6242a162816b7f30c02fa29ce772ebb5a735be1c1d05022c43f84a6c9e9"
+    },
+    {
+      "path": "./datasets/processed/cwru_105_0_chronological/metadata.json",
+      "sha256": "3e35f309dfb6bbc8d132b7a8b7130478dcaa07fa1660b32466b19b0095cc4599"
+    },
+    {
+      "path": "./datasets/processed/cwru_105_0_chronological/manifest.csv",
+      "sha256": "0eb40bde52c24e7feb6c2ff9b2db0cfd9a527c03ea4615e5ab8e7dada3602a15"
+    },
+    {
+      "path": "./scripts/timesnet.py",
+      "sha256": "0022fded49b0f34e3d17d970465c93830641e4abb0c4e30bbe2021e2ffcac024"
+    },
+    {
+      "path": "./scripts/sequence_data.py",
+      "sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e"
+    }
+  ]
+}

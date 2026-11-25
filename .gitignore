@@ -1,0 +1,71 @@
+# Data and generated scientific artifacts remain on disk; never delete them.
+/datasets/
+/logs/
+/results/
+/figures/
+/reports/
+/tutor_materials/
+/artifacts/
+/research_snapshots/
+# Runtime environments and caches
+.pixi/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.aim/
+wandb/
+lightning_logs/
+# Signal arrays, datasets and model/optimizer state
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+# Generated logs, archives and LaTeX intermediates
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+# Machine files and credentials
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
+# Intentionally retained: source, configs, lockfiles, selected CSV/JSON evidence,
+# tests and documentation outside ignored generated-output directories.
+
+# Staging-only environments and authorized local inputs
+analysis_env/
+private_audit/
+validation_output/
+.venv-analysis/
+analysis/**/inputs/
+analysis/**/installed_api_source.txt

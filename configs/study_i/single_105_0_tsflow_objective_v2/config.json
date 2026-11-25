@@ -1,0 +1,78 @@
+{
+  "protocol": "single_105_0",
+  "model": "tsflow",
+  "max_epochs": 200,
+  "output_dir": "logs/convergence/single_105_0_tsflow_objective_v2",
+  "dataset_dir": "./datasets/processed/cwru_105_0_chronological",
+  "device": "cuda",
+  "fm_evaluation_draws": 4,
+  "evaluation_seed": 420001,
+  "min_delta": 0.001,
+  "patience": 10,
+  "stability_window": 10,
+  "min_assessment_epochs": 20,
+  "rmse_relative_range": 0.02,
+  "loss_relative_trend": 0.02,
+  "gap_relative_increase": 0.05,
+  "stop_policy": "stabilization",
+  "evaluate_test": false,
+  "in_condition_reference": false,
+  "L": 512,
+  "H": 96,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 96,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "num_origins": {
+    "train": 2210,
+    "validation": 242,
+    "test": 242
+  },
+  "split_record_ids": {
+    "train": [
+      "105_0_train"
+    ],
+    "validation": [
+      "105_0_validation"
+    ],
+    "test": [
+      "105_0_test"
+    ]
+  },
+  "normalization": "z-score using chronological training region only",
+  "selection_metric": "lowest validation_forecast_RMSE, regardless of min_delta",
+  "criterion": {
+    "min_delta": 0.001,
+    "patience": 10,
+    "window": 10,
+    "min_epochs": 20,
+    "rmse_relative_range": 0.02,
+    "loss_relative_trend": 0.02,
+    "gap_relative_increase": 0.05,
+    "stop_policy": "stabilization"
+  },
+  "training_loss_measurement": "element-weighted batch losses during optimization in training mode; not a post-epoch evaluation",
+  "validation_fm_protocol": "fixed seeds evaluation_seed+draw, fixed order/batch size; same context+future p_losses as training; isolated RNG; evaluation mode; no gradients",
+  "forecast_evaluation_seed": 10042,
+  "num_samples": 8,
+  "sampling_steps": 8,
+  "timing": "elapsed includes optimization+validation+logging; optimization_seconds excludes validation, init, and final test",
+  "deterministic_algorithms": false,
+  "torch_version": "2.5.1.post306",
+  "device_name": "NVIDIA GeForce RTX 3090",
+  "source_sha256": {
+    "./datasets/processed/cwru_105_0_chronological/metadata.json": "3e35f309dfb6bbc8d132b7a8b7130478dcaa07fa1660b32466b19b0095cc4599",
+    "./datasets/processed/cwru_105_0_chronological/manifest.csv": "0eb40bde52c24e7feb6c2ff9b2db0cfd9a527c03ea4615e5ab8e7dada3602a15",
+    "./datasets/processed/cwru_105_0_chronological/105_0_train.npy": "8f7e10b5bb460ce4a23030890239dafc3e831b0db1751f0fb8f944ca46a5ddd6",
+    "./datasets/processed/cwru_105_0_chronological/105_0_validation.npy": "8712301b5b4e59f2968af857919a63f9e9117814326d394577312d5bd98282dd",
+    "./datasets/processed/cwru_105_0_chronological/105_0_test.npy": "f5b0d6242a162816b7f30c02fa29ce772ebb5a735be1c1d05022c43f84a6c9e9",
+    "./scripts/run_convergence_experiment.py": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+    "./scripts/convergence_utils.py": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+    "./scripts/record_evaluation.py": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+    "./scripts/cwru_protocols.py": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+    "./scripts/sequence_data.py": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+    "./scripts/tsflow_data.py": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+    "./scripts/run_flow_experiment.py": "ca0b5c4531f72a09d41f39e9745abfa2015e304a88394069ac03eebd0cdab8ec"
+  }
+}

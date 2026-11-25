@@ -1,0 +1,4 @@
+record_id,parent_record_id,split,relative_path,source_path,source_key,source_start,source_end_exclusive,sampling_rate_hz,num_samples,duration_seconds,sensor,condition,fault_diameter_inch,load_id,rpm
+105_0_train,105_0,train,105_0_train.npy,datasets/cwru/12k_Drive_End_Bearing_Fault_Data/IR/007/105_0.mat,X105_DE_time,0,71319,12000,71319,5.943250,drive_end_accelerometer,inner_race_fault,0.007,0,1797
+105_0_validation,105_0,validation,105_0_validation.npy,datasets/cwru/12k_Drive_End_Bearing_Fault_Data/IR/007/105_0.mat,X105_DE_time,72519,96292,12000,23773,1.981083,drive_end_accelerometer,inner_race_fault,0.007,0,1797
+105_0_test,105_0,test,105_0_test.npy,datasets/cwru/12k_Drive_End_Bearing_Fault_Data/IR/007/105_0.mat,X105_DE_time,97492,121265,12000,23773,1.981083,drive_end_accelerometer,inner_race_fault,0.007,0,1797

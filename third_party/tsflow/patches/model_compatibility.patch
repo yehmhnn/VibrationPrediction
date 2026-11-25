@@ -1,0 +1,40 @@
+diff --git a/tsflow/arch/s4.py b/tsflow/arch/s4.py
+index 446a2d4..f96b105 100644
+--- a/tsflow/arch/s4.py
++++ b/tsflow/arch/s4.py
+@@ -84,7 +84,8 @@ try:  # Try pykeops
+         z = _c2r(z)
+         w = _c2r(w)
+ 
+-        r = 2 * cauchy_mult(v, z, w, backend="GPU")
++        backend = "GPU" if v.is_cuda else "CPU"
++        r = 2 * cauchy_mult(v, z, w, backend=backend)
+         return _r2c(r)
+ 
+     def log_vandermonde(v, x, L):
+diff --git a/tsflow/model/tsflow_cond.py b/tsflow/model/tsflow_cond.py
+index e219607..0c58075 100644
+--- a/tsflow/model/tsflow_cond.py
++++ b/tsflow/model/tsflow_cond.py
+@@ -10,7 +10,6 @@ from torchtyping import TensorType, patch_typeguard
+ from typeguard import typechecked
+ 
+ from tsflow.arch import BackboneModel
+-from tsflow.arch.backbones import BackboneModelMultivariate
+ from tsflow.model._base import PREDICTION_INPUT_NAMES, TSFlowBase
+ from tsflow.utils.gaussian_process import Q0Dist
+ from tsflow.utils.util import LongScaler
+@@ -62,10 +61,9 @@ class TSFlowCond(TSFlowBase):
+                 target_dim=target_dim,
+             )
+         else:
+-            self.backbone = BackboneModelMultivariate(
+-                **backbone_params,
+-                num_features=num_features,
+-                target_dim=target_dim,
++            raise NotImplementedError(
++                "This TSFlow checkout does not provide BackboneModelMultivariate; "
++                "use setting='univariate' or implement the missing backbone."
+             )
+         self.ema_backbone = EMA(self.backbone, **ema_params)
+         self.setting = setting

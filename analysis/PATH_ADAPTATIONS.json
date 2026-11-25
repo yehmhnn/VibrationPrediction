@@ -1,0 +1,20 @@
+[
+  {
+    "path": "analysis/studyII_welch_20261028/analyze.py",
+    "original_sha256": "27da154e82663fa5f5b3545a26ea9d4c6c0935b4da21c9e4797701f6e4ecdfb2",
+    "integrated_sha256": "766c1d44d24e1fbed077c7b5e14c991ac010b957a744aac3189afc0042024ed7",
+    "scope": "only report-evidence locations, platform temporary cache, and figure destination"
+  },
+  {
+    "path": "analysis/studyII_wavelet_denoising_20261028/analyze.py",
+    "original_sha256": "7b33868db87c976803d91108f712adb7f1a2be4421ab28ce701f7cd37e8a68d9",
+    "integrated_sha256": "100a3905df10963aeea1ab95a5711e9e4a217fb7b25b95cfbdb37a617427b473",
+    "scope": "only report-evidence locations, platform temporary cache, and figure destination"
+  },
+  {
+    "path": "analysis/cwru_dataset_psd_20261029/prepare.py",
+    "original_sha256": "7f35f04e7420757cec492017781d69a4c8edb06edaeb298ff753ff223ddc4a95",
+    "integrated_sha256": "fe32a7bedc26b5a2c8b27051d6e4864f6f3091f1ebc1135084cd70e87e12081f",
+    "scope": "only report-evidence locations, platform temporary cache, and figure destination"
+  }
+]

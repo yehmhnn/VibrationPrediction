@@ -1,0 +1,567 @@
+[
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H24_seed42_e100",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H24_seed42_e100/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H24_seed42_e100/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 99,
+    "epochs_completed": 100,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H24_seed42_e100/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H24_seed42_e100/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H24_seed42_e100/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H24_seed42_e100/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H48_seed42_e100",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H48_seed42_e100/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H48_seed42_e100/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 90,
+    "epochs_completed": 100,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H48_seed42_e100/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H48_seed42_e100/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H48_seed42_e100/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H48_seed42_e100/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H72_seed42_e100",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H72_seed42_e100/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H72_seed42_e100/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 91,
+    "epochs_completed": 100,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H72_seed42_e100/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H72_seed42_e100/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H72_seed42_e100/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H72_seed42_e100/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H96_seed42",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 5,
+    "epochs_completed": 5,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H96_seed42_e100",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e100/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e100/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 100,
+    "epochs_completed": 100,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e100/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e100/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e100/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e100/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H96_seed42_e30",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e30/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e30/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 30,
+    "epochs_completed": 30,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e30/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e30/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e30/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e30/config.json"
+  },
+  {
+    "id": "cwru_105_0_chronological_flow_L512_H96_seed42_e60",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e60/result.json",
+    "history": "evidence/experiments/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e60/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_flow_experiment.py",
+    "best_epoch": 60,
+    "epochs_completed": 60,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e60/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_flow_experiment.py",
+    "historical_result": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e60/result.json",
+    "historical_history": "logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42_e60/history.csv",
+    "config": "configs/study_i/cwru_105_0_chronological_flow_L512_H96_seed42_e60/config.json"
+  },
+  {
+    "id": "timesnet_L512_H24_seed42_e30",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/timesnet_L512_H24_seed42_e30/result.json",
+    "history": "evidence/experiments/study_i/timesnet_L512_H24_seed42_e30/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_timesnet_horizon_comparison.py",
+    "best_epoch": 22,
+    "epochs_completed": 30,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/timesnet_L512_H24_seed42_e30/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_timesnet_horizon_comparison.py",
+    "historical_result": "logs/horizon_comparison/timesnet_L512_H24_seed42_e30/result.json",
+    "historical_history": "logs/horizon_comparison/timesnet_L512_H24_seed42_e30/history.csv",
+    "config": "configs/study_i/timesnet_L512_H24_seed42_e30/config.json"
+  },
+  {
+    "id": "timesnet_L512_H48_seed42_e30",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/timesnet_L512_H48_seed42_e30/result.json",
+    "history": "evidence/experiments/study_i/timesnet_L512_H48_seed42_e30/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_timesnet_horizon_comparison.py",
+    "best_epoch": 30,
+    "epochs_completed": 30,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/timesnet_L512_H48_seed42_e30/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_timesnet_horizon_comparison.py",
+    "historical_result": "logs/horizon_comparison/timesnet_L512_H48_seed42_e30/result.json",
+    "historical_history": "logs/horizon_comparison/timesnet_L512_H48_seed42_e30/history.csv",
+    "config": "configs/study_i/timesnet_L512_H48_seed42_e30/config.json"
+  },
+  {
+    "id": "timesnet_L512_H72_seed42_e30",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/timesnet_L512_H72_seed42_e30/result.json",
+    "history": "evidence/experiments/study_i/timesnet_L512_H72_seed42_e30/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_timesnet_horizon_comparison.py",
+    "best_epoch": 26,
+    "epochs_completed": 30,
+    "test_evaluated": "historical test scores recorded",
+    "preserved_config": "configs/study_i/timesnet_L512_H72_seed42_e30/config.json",
+    "source_verification": {},
+    "historical_driver": "scripts/run_timesnet_horizon_comparison.py",
+    "historical_result": "logs/horizon_comparison/timesnet_L512_H72_seed42_e30/result.json",
+    "historical_history": "logs/horizon_comparison/timesnet_L512_H72_seed42_e30/history.csv",
+    "config": "configs/study_i/timesnet_L512_H72_seed42_e30/config.json"
+  },
+  {
+    "id": "multi_record_B_timesnet_objective_v1",
+    "study": "study_ii",
+    "result": "evidence/experiments/study_ii/multi_record_B_timesnet_objective_v1/result.json",
+    "history": "evidence/experiments/study_ii/multi_record_B_timesnet_objective_v1/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_convergence_experiment.py",
+    "best_epoch": 1,
+    "epochs_completed": 100,
+    "test_evaluated": false,
+    "preserved_config": "configs/study_ii/multi_record_B_timesnet_objective_v1/config.json",
+    "source_verification": {
+      "./scripts/run_convergence_experiment.py": {
+        "recorded_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "current_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "match": true
+      },
+      "./scripts/convergence_utils.py": {
+        "recorded_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "current_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "match": true
+      },
+      "./scripts/record_evaluation.py": {
+        "recorded_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "current_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "match": true
+      },
+      "./scripts/cwru_protocols.py": {
+        "recorded_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "current_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "match": true
+      },
+      "./scripts/sequence_data.py": {
+        "recorded_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "current_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "match": true
+      },
+      "./scripts/tsflow_data.py": {
+        "recorded_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "current_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "match": true
+      },
+      "./scripts/run_experiments.py": {
+        "recorded_sha256": "95e9e80fec153735aa4c8d7414c62ce7bd0cb96968ab5e5d59942901e9e78029",
+        "current_sha256": "95e9e80fec153735aa4c8d7414c62ce7bd0cb96968ab5e5d59942901e9e78029",
+        "match": true
+      }
+    },
+    "historical_driver": "scripts/run_convergence_experiment.py",
+    "historical_result": "logs/convergence/multi_record_B_timesnet_objective_v1/result.json",
+    "historical_history": "logs/convergence/multi_record_B_timesnet_objective_v1/history.csv",
+    "config": "configs/study_ii/multi_record_B_timesnet_objective_v1/config.json"
+  },
+  {
+    "id": "multi_record_B_tsflow_objective_v1",
+    "study": "study_ii",
+    "result": "evidence/experiments/study_ii/multi_record_B_tsflow_objective_v1/result.json",
+    "history": "evidence/experiments/study_ii/multi_record_B_tsflow_objective_v1/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_convergence_experiment.py",
+    "best_epoch": 8,
+    "epochs_completed": 150,
+    "test_evaluated": false,
+    "preserved_config": "configs/study_ii/multi_record_B_tsflow_objective_v1/config.json",
+    "source_verification": {
+      "./scripts/run_convergence_experiment.py": {
+        "recorded_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "current_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "match": true
+      },
+      "./scripts/convergence_utils.py": {
+        "recorded_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "current_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "match": true
+      },
+      "./scripts/record_evaluation.py": {
+        "recorded_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "current_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "match": true
+      },
+      "./scripts/cwru_protocols.py": {
+        "recorded_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "current_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "match": true
+      },
+      "./scripts/sequence_data.py": {
+        "recorded_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "current_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "match": true
+      },
+      "./scripts/tsflow_data.py": {
+        "recorded_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "current_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "match": true
+      },
+      "./scripts/run_flow_experiment.py": {
+        "recorded_sha256": "ca0b5c4531f72a09d41f39e9745abfa2015e304a88394069ac03eebd0cdab8ec",
+        "current_sha256": "ca0b5c4531f72a09d41f39e9745abfa2015e304a88394069ac03eebd0cdab8ec",
+        "match": true
+      }
+    },
+    "historical_driver": "scripts/run_convergence_experiment.py",
+    "historical_result": "logs/convergence/multi_record_B_tsflow_objective_v1/result.json",
+    "historical_history": "logs/convergence/multi_record_B_tsflow_objective_v1/history.csv",
+    "config": "configs/study_ii/multi_record_B_tsflow_objective_v1/config.json"
+  },
+  {
+    "id": "single_105_0_timesnet_objective_v2",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/single_105_0_timesnet_objective_v2/result.json",
+    "history": "evidence/experiments/study_i/single_105_0_timesnet_objective_v2/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_convergence_experiment.py",
+    "best_epoch": 86,
+    "epochs_completed": 150,
+    "test_evaluated": false,
+    "preserved_config": "configs/study_i/single_105_0_timesnet_objective_v2/config.json",
+    "source_verification": {
+      "./scripts/run_convergence_experiment.py": {
+        "recorded_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "current_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "match": true
+      },
+      "./scripts/convergence_utils.py": {
+        "recorded_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "current_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "match": true
+      },
+      "./scripts/record_evaluation.py": {
+        "recorded_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "current_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "match": true
+      },
+      "./scripts/cwru_protocols.py": {
+        "recorded_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "current_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "match": true
+      },
+      "./scripts/sequence_data.py": {
+        "recorded_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "current_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "match": true
+      },
+      "./scripts/tsflow_data.py": {
+        "recorded_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "current_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "match": true
+      },
+      "./scripts/run_experiments.py": {
+        "recorded_sha256": "95e9e80fec153735aa4c8d7414c62ce7bd0cb96968ab5e5d59942901e9e78029",
+        "current_sha256": "95e9e80fec153735aa4c8d7414c62ce7bd0cb96968ab5e5d59942901e9e78029",
+        "match": true
+      }
+    },
+    "historical_driver": "scripts/run_convergence_experiment.py",
+    "historical_result": "logs/convergence/single_105_0_timesnet_objective_v2/result.json",
+    "historical_history": "logs/convergence/single_105_0_timesnet_objective_v2/history.csv",
+    "config": "configs/study_i/single_105_0_timesnet_objective_v2/config.json"
+  },
+  {
+    "id": "single_105_0_tsflow_objective_v2",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/single_105_0_tsflow_objective_v2/result.json",
+    "history": "evidence/experiments/study_i/single_105_0_tsflow_objective_v2/history.csv",
+    "config_status": "saved",
+    "driver": "scripts/run_convergence_experiment.py",
+    "best_epoch": 127,
+    "epochs_completed": 137,
+    "test_evaluated": false,
+    "preserved_config": "configs/study_i/single_105_0_tsflow_objective_v2/config.json",
+    "source_verification": {
+      "./scripts/run_convergence_experiment.py": {
+        "recorded_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "current_sha256": "e06730171b8e03fea8ed505bb87e36db8f57fb7000f3835dd40b2b7b28c664ae",
+        "match": true
+      },
+      "./scripts/convergence_utils.py": {
+        "recorded_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "current_sha256": "81eb3e10860ed6d6ed064c848e0fdf67dd8f2e9b9765246eebb75480d549ac66",
+        "match": true
+      },
+      "./scripts/record_evaluation.py": {
+        "recorded_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "current_sha256": "b2af0cbcca5221f5c3b05bac009b4fccad186463f8825847ebf37c3e04b13dde",
+        "match": true
+      },
+      "./scripts/cwru_protocols.py": {
+        "recorded_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "current_sha256": "80bb3d1c777abd19f3124c6286e28fee89ef3637d73bc9d9281ad52ef30ba89e",
+        "match": true
+      },
+      "./scripts/sequence_data.py": {
+        "recorded_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "current_sha256": "6388114c24b025deb64a3ac7658649e725578cdbf5da64f960d6db02e77be55e",
+        "match": true
+      },
+      "./scripts/tsflow_data.py": {
+        "recorded_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "current_sha256": "52305519f937f7fe9143a09b27766adc54b5e4b924fca0e6d83a75d99318f08b",
+        "match": true
+      },
+      "./scripts/run_flow_experiment.py": {
+        "recorded_sha256": "ca0b5c4531f72a09d41f39e9745abfa2015e304a88394069ac03eebd0cdab8ec",
+        "current_sha256": "ca0b5c4531f72a09d41f39e9745abfa2015e304a88394069ac03eebd0cdab8ec",
+        "match": true
+      }
+    },
+    "historical_driver": "scripts/run_convergence_experiment.py",
+    "historical_result": "logs/convergence/single_105_0_tsflow_objective_v2/result.json",
+    "historical_history": "logs/convergence/single_105_0_tsflow_objective_v2/history.csv",
+    "config": "configs/study_i/single_105_0_tsflow_objective_v2/config.json"
+  },
+  {
+    "id": "timesnet_L512_H96_seed42_e30",
+    "study": "study_i",
+    "result": "evidence/experiments/study_i/timesnet_L512_H96_seed42_e30/result.json",
+    "history": "evidence/experiments/study_i/timesnet_L512_H96_seed42_e30/history.csv",
+    "config_status": "standalone config absent; result metadata and driver defaults only",
+    "driver": "scripts/run_timesnet_convergence.py",
+    "best_epoch": 23,
+    "epochs_completed": 30,
+    "test_evaluated": "historical test scores recorded",
+    "historical_driver": "scripts/run_timesnet_convergence.py",
+    "historical_result": "logs/convergence/timesnet_L512_H96_seed42_e30/result.json",
+    "historical_history": "logs/convergence/timesnet_L512_H96_seed42_e30/history.csv",
+    "config": null
+  },
+  {
+    "id": "E1",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E1.json",
+    "history": "evidence/experiments/followup/E1/history.csv",
+    "result": "evidence/experiments/followup/E1/result.json",
+    "model": "timesnet",
+    "seed": 42,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 70,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E1/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E1/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E1/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E1/config.json"
+  },
+  {
+    "id": "E2",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E2.json",
+    "history": "evidence/experiments/followup/E2/history.csv",
+    "result": "evidence/experiments/followup/E2/result.json",
+    "model": "timesnet",
+    "seed": 42,
+    "dropout": 0.3,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 1,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E2/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E2/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E2/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E2/config.json"
+  },
+  {
+    "id": "E3",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E3.json",
+    "history": "evidence/experiments/followup/E3/history.csv",
+    "result": "evidence/experiments/followup/E3/result.json",
+    "model": "timesnet",
+    "seed": 42,
+    "dropout": 0.1,
+    "weight_decay": 0.1,
+    "epochs_completed": 100,
+    "best_epoch": 71,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E3/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E3/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E3/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E3/config.json"
+  },
+  {
+    "id": "E4",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E4.json",
+    "history": "evidence/experiments/followup/E4/history.csv",
+    "result": "evidence/experiments/followup/E4/result.json",
+    "model": "tsflow",
+    "seed": 42,
+    "dropout": 0.0,
+    "weight_decay": 0.1,
+    "epochs_completed": 150,
+    "best_epoch": 97,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E4/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E4/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E4/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E4/config.json"
+  },
+  {
+    "id": "E5_seed7",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E5_seed7.json",
+    "history": "evidence/experiments/followup/E5_seed7/history.csv",
+    "result": "evidence/experiments/followup/E5_seed7/result.json",
+    "model": "timesnet",
+    "seed": 7,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 54,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E5_seed7/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E5_seed7/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E5_seed7/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E5_seed7/config.json"
+  },
+  {
+    "id": "E5_seed123",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E5_seed123.json",
+    "history": "evidence/experiments/followup/E5_seed123/history.csv",
+    "result": "evidence/experiments/followup/E5_seed123/result.json",
+    "model": "timesnet",
+    "seed": 123,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 90,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E5_seed123/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E5_seed123/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E5_seed123/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E5_seed123/config.json"
+  },
+  {
+    "id": "E6_seed7",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E6_seed7.json",
+    "history": "evidence/experiments/followup/E6_seed7/history.csv",
+    "result": "evidence/experiments/followup/E6_seed7/result.json",
+    "model": "timesnet",
+    "seed": 7,
+    "dropout": 0.3,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 9,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E6_seed7/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E6_seed7/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E6_seed7/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E6_seed7/config.json"
+  },
+  {
+    "id": "E6_seed123",
+    "study": "followup",
+    "driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_driver": "scripts/preserved/overnight_20261020_v1/train.py",
+    "preserved_config": "configs/regularization/overnight_20261020_v1/E6_seed123.json",
+    "history": "evidence/experiments/followup/E6_seed123/history.csv",
+    "result": "evidence/experiments/followup/E6_seed123/result.json",
+    "model": "timesnet",
+    "seed": 123,
+    "dropout": 0.3,
+    "weight_decay": 0.01,
+    "epochs_completed": 100,
+    "best_epoch": 88,
+    "test_evaluated": false,
+    "historical_driver": "logs/overnight_preflight_20261020_v1/train.py",
+    "historical_result": "logs/overnight_preflight_20261020_v1/runs/E6_seed123/result.json",
+    "historical_history": "logs/overnight_preflight_20261020_v1/runs/E6_seed123/history.csv",
+    "historical_record_metrics": "logs/overnight_preflight_20261020_v1/runs/E6_seed123/validation_records.jsonl",
+    "config": "evidence/experiments/followup/E6_seed123/config.json"
+  }
+]

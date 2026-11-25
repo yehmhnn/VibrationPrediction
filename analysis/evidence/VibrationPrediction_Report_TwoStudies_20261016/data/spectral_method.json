@@ -1,0 +1,31 @@
+{
+  "dataset": "105_0 chronological, training-only normalized arrays",
+  "sampling_rate_hz": 12000,
+  "welch": {
+    "window": "hann",
+    "nperseg": 8192,
+    "noverlap": 4096,
+    "nfft": 8192,
+    "detrend": "constant",
+    "scaling": "density"
+  },
+  "smoothing": "none",
+  "ratio_mask": "DC and training PSD below 1e-8 of maximum",
+  "training_psd_threshold": 3.759308052622629e-10,
+  "total_bins": 4097,
+  "masked_ratio_bins": 155,
+  "masked_frequency_min_hz": 0.0,
+  "welch_segment_counts": {
+    "train": 16,
+    "validation": 4,
+    "test": 4
+  },
+  "source_sha256": {
+    "source_artifacts/datasets/processed/cwru_105_0_chronological/metadata.json": "3e35f309dfb6bbc8d132b7a8b7130478dcaa07fa1660b32466b19b0095cc4599",
+    "source_artifacts/datasets/processed/cwru_105_0_chronological/manifest.csv": "0eb40bde52c24e7feb6c2ff9b2db0cfd9a527c03ea4615e5ab8e7dada3602a15",
+    "source_artifacts/results/spectral_analysis_cwru_105_0/metadata.json": "270031135d69e441bfb099eb5c2db5178ac208ef98774c7c6e4be6fe7714876a",
+    "source_artifacts/datasets/processed/cwru_105_0_chronological/105_0_train.npy": "8f7e10b5bb460ce4a23030890239dafc3e831b0db1751f0fb8f944ca46a5ddd6",
+    "source_artifacts/datasets/processed/cwru_105_0_chronological/105_0_validation.npy": "8712301b5b4e59f2968af857919a63f9e9117814326d394577312d5bd98282dd",
+    "source_artifacts/datasets/processed/cwru_105_0_chronological/105_0_test.npy": "f5b0d6242a162816b7f30c02fa29ce772ebb5a735be1c1d05022c43f84a6c9e9"
+  }
+}

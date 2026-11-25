@@ -1,0 +1,41 @@
+{
+  "dataset_dir": "./datasets/processed/cwru_105_0_chronological",
+  "lookback": 512,
+  "horizon": 96,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 96,
+  "epochs": 5,
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "learning_rate": 0.001,
+  "num_samples": 8,
+  "sampling_steps": 8,
+  "device": "cuda",
+  "output_dir": "./logs/flow/cwru_105_0_chronological_flow_L512_H96_seed42",
+  "run_id": "cwru_105_0_chronological_flow_L512_H96_seed42",
+  "model": "TSFlowCond",
+  "backbone": "S4, hidden_dim=32, residual_blocks=1, dropout=0",
+  "prior": "OU, gamma=1.0, context_freqs=1",
+  "normalization": "identity (input arrays already use training-only z-score)",
+  "point_forecast": "mean over generated samples",
+  "selection_metric": "validation predictive-mean RMSE",
+  "split_record_ids": {
+    "train": [
+      "105_0_train"
+    ],
+    "validation": [
+      "105_0_validation"
+    ],
+    "test": [
+      "105_0_test"
+    ]
+  },
+  "num_origins": {
+    "train": 2210,
+    "validation": 242,
+    "test": 242
+  },
+  "torch_version": "2.5.1.post306",
+  "device_name": "NVIDIA GeForce RTX 3090"
+}

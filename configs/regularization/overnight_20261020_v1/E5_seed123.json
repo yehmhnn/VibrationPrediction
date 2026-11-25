@@ -1,0 +1,30 @@
+{
+  "id": "E5_seed123",
+  "model": "timesnet",
+  "dataset": "studyII",
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "seed": 123,
+  "max_epochs": 100,
+  "device": "cuda",
+  "min_delta": 0.001,
+  "patience": 10,
+  "stability_window": 10,
+  "min_assessment_epochs": 20,
+  "rmse_relative_range": 0.02,
+  "loss_relative_trend": 0.02,
+  "gap_relative_increase": 0.05,
+  "stop_policy": "none",
+  "evaluation_seed": 420001,
+  "fm_evaluation_draws": 4,
+  "window_counts": {
+    "train": 22754,
+    "validation": 3785
+  },
+  "L": 512,
+  "H": 96,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "train_stride": 32,
+  "eval_stride": 96
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "cwru_105_0_chronological",
+  "model": "timesnet",
+  "L": 512,
+  "H": 72,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 72,
+  "epochs": 30,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "best_epoch": 26,
+  "best_validation_MAE": 0.3756943941116333,
+  "best_validation_RMSE": 0.5354340103942287,
+  "test_MAE": 0.5740931005382768,
+  "test_RMSE": 0.8080091496363792,
+  "training_seconds": 93.80792354699224,
+  "checkpoint_path": "./logs/horizon_comparison/timesnet_L512_H72_seed42_e30/checkpoints/best.ckpt",
+  "num_train_origins": 2211,
+  "num_validation_origins": 323,
+  "num_test_origins": 323
+}

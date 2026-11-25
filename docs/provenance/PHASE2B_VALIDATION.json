@@ -1,0 +1,153 @@
+{
+  "status": "PASS_CORE_CHECKS_ANALYSIS_ENVIRONMENT_UNAVAILABLE",
+  "syntax_files": [
+    "scripts/analyze_cwru_105_spectrum.py",
+    "scripts/preprocess_ottawa.py",
+    "scripts/preprocess_cwru.py",
+    "scripts/convergence_utils.py",
+    "scripts/preprocess_cwru_within_record.py",
+    "scripts/sequence_data.py",
+    "scripts/timesnet.py",
+    "scripts/generate_figures.py",
+    "scripts/tsflow_data.py",
+    "scripts/run_timesnet_horizon_comparison.py",
+    "scripts/tune_autoregression.py",
+    "scripts/plot_convergence_losses.py",
+    "scripts/run_baselines.py",
+    "scripts/run_flow_experiment.py",
+    "scripts/__init__.py",
+    "scripts/test_convergence_logging.py",
+    "scripts/run_timesnet_convergence.py",
+    "scripts/record_evaluation.py",
+    "scripts/run_experiments.py",
+    "scripts/analyze_predictability.py",
+    "scripts/profile_gp.py",
+    "scripts/train_flow_smoke.py",
+    "scripts/run_convergence_experiment.py",
+    "scripts/summarize_horizon_sweep.py",
+    "scripts/test_protocol_b.py",
+    "scripts/generate_report.py",
+    "scripts/summarize_rpm_conditioning.py",
+    "scripts/cwru_protocols.py",
+    "scripts/validate_protocol_b.py",
+    "scripts/preprocess_cwru_protocol_b.py",
+    "scripts/train_timesnet_smoke.py",
+    "scripts/preserved/overnight_20261020_v1/train.py",
+    "scripts/preserved/overnight_20261020_v1/fit_body.py",
+    "scripts/preserved/overnight_20261020_v1/smoke_all.py",
+    "scripts/preserved/overnight_20261020_v1/prepare.py",
+    "scripts/preserved/overnight_20261020_v1/batch.py",
+    "scripts/preserved/overnight_20261020_v1/train_main.py",
+    "scripts/preserved/overnight_20261020_v1/train_header.py",
+    "scripts/infrastructure_backups/protocol_B_20261009/convergence_utils.py",
+    "scripts/infrastructure_backups/protocol_B_20261009/plot_convergence_losses.py",
+    "scripts/infrastructure_backups/protocol_B_20261009/test_convergence_logging.py",
+    "scripts/infrastructure_backups/protocol_B_20261009/run_convergence_experiment.py",
+    "analysis/cwru_dataset_psd_20261029/prepare.py",
+    "analysis/studyII_wavelet_denoising_20261028/write_report.py",
+    "analysis/studyII_wavelet_denoising_20261028/analyze.py",
+    "analysis/studyII_welch_20261028/write_report.py",
+    "analysis/studyII_welch_20261028/analyze.py",
+    "analysis/cwru_dataset_psd_20261029/original_sources/prepare.py",
+    "analysis/studyII_wavelet_denoising_20261028/original_sources/analyze.py",
+    "analysis/evidence/VibrationPrediction_Report_Revised/source_artifacts/scripts/preprocess_cwru_within_record.py",
+    "analysis/evidence/VibrationPrediction_Report_Revised/source_artifacts/scripts/sequence_data.py",
+    "analysis/evidence/VibrationPrediction_Report_Revised/source_artifacts/scripts/tsflow_data.py",
+    "analysis/evidence/VibrationPrediction_Report_TwoStudies_20261016/evidence/scripts/run_convergence_experiment.py",
+    "analysis/studyII_welch_20261028/original_sources/analyze.py"
+  ],
+  "safe_imports": {
+    "numpy": "PASS",
+    "scipy": "PASS",
+    "pandas": "PASS",
+    "matplotlib": "PASS",
+    "torch": "PASS",
+    "cwru_protocols": "PASS",
+    "sequence_data": "PASS",
+    "timesnet": "PASS",
+    "record_evaluation": "PASS",
+    "convergence_utils": "PASS"
+  },
+  "analysis_entrypoints_not_imported_or_executed": true,
+  "docs_links_broken": [],
+  "integrated_files": 70,
+  "historical_output_hash_checks": 44,
+  "selected_run_summaries_verified": 10,
+  "original_training_source_hashes_unchanged": true,
+  "upstream_status_unchanged": true,
+  "protected_snapshot_metadata_unchanged": true,
+  "git_initialized": false,
+  "training_inference_or_reserved_signal_access": false,
+  "publication_secret_candidates": 0,
+  "machine_path_line_count": 529,
+  "fresh_install_or_gpu_execution_tested": false,
+  "additional_dependency_imports": {
+    "tsflow.model.tsflow_cond": "PASS",
+    "pywt": {
+      "status": "UNAVAILABLE",
+      "error": "ModuleNotFoundError: No module named 'pywt'"
+    },
+    "skimage.restoration": {
+      "status": "UNAVAILABLE",
+      "error": "ModuleNotFoundError: No module named 'skimage'"
+    }
+  },
+  "analysis_path_checks": {
+    "analysis/studyII_welch_20261028/analyze.py": {
+      "changed_top_level_assignments": [
+        {
+          "original_line": 3,
+          "integrated_line": 3,
+          "node": "Assign"
+        },
+        {
+          "original_line": 13,
+          "integrated_line": 13,
+          "node": "Assign"
+        }
+      ],
+      "functions_and_calculation_statements_unchanged": true
+    },
+    "analysis/studyII_wavelet_denoising_20261028/analyze.py": {
+      "changed_top_level_assignments": [
+        {
+          "original_line": 2,
+          "integrated_line": 2,
+          "node": "Assign"
+        },
+        {
+          "original_line": 13,
+          "integrated_line": 13,
+          "node": "Assign"
+        }
+      ],
+      "functions_and_calculation_statements_unchanged": true
+    },
+    "analysis/cwru_dataset_psd_20261029/prepare.py": {
+      "changed_top_level_assignments": [
+        {
+          "original_line": 3,
+          "integrated_line": 3,
+          "node": "Assign"
+        },
+        {
+          "original_line": 10,
+          "integrated_line": 10,
+          "node": "Assign"
+        },
+        {
+          "original_line": 10,
+          "integrated_line": 10,
+          "node": "Assign"
+        },
+        {
+          "original_line": 10,
+          "integrated_line": 10,
+          "node": "Assign"
+        }
+      ],
+      "functions_and_calculation_statements_unchanged": true
+    }
+  },
+  "analysis_runtime_reproduction": "NOT_RUN; pywt and skimage absent in forecasting environment; separate environment required"
+}

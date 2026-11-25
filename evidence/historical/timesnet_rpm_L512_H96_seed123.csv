@@ -1,0 +1,2 @@
+dataset,model,L,H,MAE,RMSE,seed,train_stride,eval_stride,epochs,best_val_loss,training_seconds,condition_rpm,rpm_train_mean,rpm_train_std,run_id
+cwru_12k_de_ir007,timesnet_rpm,512,96,0.832995,1.144957,123,32,96,5,1.245034,89.700,True,1784.500000,12.500000,cwru_12k_de_ir007_timesnet_rpm_L512_H96_seed123

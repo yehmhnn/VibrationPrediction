@@ -1,0 +1,70 @@
+{
+  "epochs_completed": 150,
+  "optimizer_steps": 10500,
+  "best_epoch": 86,
+  "best_validation_forecast_RMSE": 0.5261741325523484,
+  "termination_reason": "maximum_epoch_budget",
+  "assessment": {
+    "status": "patience_exhausted_without_stabilization",
+    "stop": false,
+    "patience_counter": 64,
+    "mathematical_convergence_demonstrated": false,
+    "rmse_relative_range": 0.027050926340741837,
+    "training_loss_relative_trend": 0.07758576152116721,
+    "validation_loss_relative_trend": 0.013495113570324171,
+    "gap_relative_increase": 0.040080098183410254
+  },
+  "criterion": {
+    "min_delta": 0.001,
+    "patience": 10,
+    "window": 10,
+    "min_epochs": 20,
+    "rmse_relative_range": 0.02,
+    "loss_relative_trend": 0.02,
+    "gap_relative_increase": 0.05,
+    "stop_policy": "stabilization"
+  },
+  "training_seconds": 669.7526620170102,
+  "optimization_seconds": 657.0944946189411,
+  "test_evaluated": false,
+  "in_condition_reference_evaluated": false,
+  "best_validation_record_metrics": {
+    "pooled": {
+      "MAE": 0.3692862875862227,
+      "MSE": 0.2768592177672163,
+      "RMSE": 0.5261741325523484,
+      "num_target_elements": 23232,
+      "num_windows": 242
+    },
+    "equal_record": {
+      "MAE": 0.3692862845569113,
+      "RMSE": 0.5261741271594557,
+      "definition": "arithmetic mean of per-record MAEs/RMSEs; RMSE is not sqrt(mean record MSE)",
+      "num_records": 1
+    },
+    "per_record": {
+      "105_0_validation": {
+        "MAE": 0.3692862845569113,
+        "MSE": 0.276859212092015,
+        "RMSE": 0.5261741271594557,
+        "num_target_elements": 23232,
+        "num_windows": 242,
+        "fault_type": "inner_race_fault",
+        "load": 0,
+        "RPM": 1797.0,
+        "parent_record_id": "105_0"
+      }
+    },
+    "per_fault_type": {
+      "inner_race_fault": {
+        "MAE": 0.3692862845569113,
+        "MSE": 0.276859212092015,
+        "RMSE": 0.5261741271594557,
+        "num_target_elements": 23232,
+        "num_windows": 242
+      }
+    }
+  },
+  "validation_seconds": 11.981814568862319,
+  "total_elapsed_seconds": 669.7526776869781
+}

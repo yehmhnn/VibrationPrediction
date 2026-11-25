@@ -1,0 +1,182 @@
+{
+  "device": "cpu",
+  "no_optimizer_no_backward": true,
+  "tests": {
+    "A_repeatability": {
+      "tsflow": {
+        "max_velocity_output_difference": 0.0,
+        "objective_loss_difference": 0.0,
+        "max_forecast_difference": 0.0,
+        "forecast_shape": [
+          3,
+          96
+        ]
+      },
+      "timesnet": {
+        "max_output_difference": 0.0,
+        "objective_loss_difference": 0.0,
+        "shape": [
+          3,
+          96
+        ]
+      },
+      "status": "PASS"
+    },
+    "B_loss_calculation": {
+      "status": "PASS",
+      "flow_shape": [
+        3,
+        608,
+        1
+      ],
+      "flow_feature_shape": [
+        3,
+        608,
+        1,
+        2
+      ],
+      "flow_helper_minus_manual": -2.590737055441217e-09,
+      "times_validation_helper_minus_manual": -6.191713142200683e-09,
+      "flow_validation_unequal_batch_difference": 1.178208614005527e-09,
+      "times_RMSE_minus_sqrt_MSE": 0.0,
+      "unequal_batch_sizes": [
+        2,
+        1
+      ],
+      "synthetic_expected_MSE": 15.166666666666666,
+      "synthetic_weighted_MSE": 15.166666666666666,
+      "synthetic_unweighted_batch_mean": 19.0,
+      "flow_helper_elements": 1824
+    },
+    "C_context_future": {
+      "status": "PARTIAL",
+      "checkpoint_epoch": 8,
+      "context_velocity_MSE": 4.11972198966124e-05,
+      "future_velocity_MSE": 0.5967390617993051,
+      "full_velocity_MSE": 0.09425664952190847,
+      "weighted_context_contribution": 3.469239570241044e-05,
+      "weighted_future_contribution": 0.09422195712620607,
+      "context_actual_loss_percent": 0.036806311149800354,
+      "future_actual_loss_percent": 99.9631936888502,
+      "decomposition_error": 0.0,
+      "per_record_context_MSE": [
+        7.297655203931973e-05,
+        6.229619511762593e-06,
+        4.438548813875487e-05
+      ],
+      "per_record_future_MSE": [
+        1.0492471039732485,
+        0.14968923163932166,
+        0.5912808497853451
+      ],
+      "later_checkpoint_available": false,
+      "limitation": "Only best.pt (epoch 8) retained in the approved run; no later model weights. Cannot establish observed best-to-later component changes.",
+      "synthetic_counterexample": {
+        "context_before": 1.0,
+        "context_after": 0.0,
+        "future_before": 1.0,
+        "future_after": 2.0,
+        "full_before": 1.0,
+        "full_after": 0.3157894736842105
+      }
+    },
+    "D_batch_dependence": {
+      "status": "PASS",
+      "fixed_record": "132@6_2",
+      "fixed_window_index": 2526,
+      "forecast_origin_sample": 512,
+      "batch_size": 32,
+      "same_record_companions": 31,
+      "mixed_companions": {
+        "107_2": 16,
+        "120_2": 15
+      },
+      "max_forecast_difference_same_vs_mixed": 0.0,
+      "mean_absolute_forecast_difference": 0.0,
+      "forecast_L2_difference": 0.0,
+      "RMSE_same": 2.003620989793957,
+      "RMSE_mixed": 2.003620989793957,
+      "RMSE_change_mixed_minus_same": 0.0,
+      "max_identical_companion_repeat_difference": 0.0,
+      "selected_periods_per_block_same_mixed_repeat": [
+        [
+          [
+            608,
+            202,
+            304
+          ],
+          [
+            608,
+            202,
+            304
+          ]
+        ],
+        [
+          [
+            608,
+            202,
+            304
+          ],
+          [
+            608,
+            202,
+            304
+          ]
+        ],
+        [
+          [
+            608,
+            202,
+            304
+          ],
+          [
+            608,
+            202,
+            304
+          ]
+        ]
+      ]
+    },
+    "E_parameter_sensitivity": {
+      "timesnet": {
+        "parameter": "model.output_projection.bias",
+        "additive_perturbation": 0.001,
+        "max_forecast_difference": 0.0013074874877929688,
+        "output_responds": true,
+        "actual_parameter_difference": 0.0010000020265579224
+      },
+      "tsflow": {
+        "parameter": "backbone.out_linear.2.bias",
+        "additive_perturbation": 0.001,
+        "max_forecast_difference": 0.0014151036739349365,
+        "output_responds": true,
+        "actual_parameter_difference": 0.0010000020265579224
+      },
+      "status": "PASS"
+    }
+  },
+  "warnings": [],
+  "tsflow_checkpoint_epoch": 8,
+  "timesnet_checkpoint_epoch": 1,
+  "samples": {
+    "split": "validation",
+    "record_ids": [
+      "107_2",
+      "120_2",
+      "132@6_2"
+    ],
+    "fixed_batch_indices": [
+      0,
+      1266,
+      2526
+    ],
+    "num_fixed_batch_windows": 3
+  },
+  "original_in_memory_parameters_unchanged": {
+    "tsflow": true,
+    "timesnet": true
+  },
+  "original_artifact_hashes_unchanged": true,
+  "elapsed_seconds": 2.5841569672338665,
+  "scope": "Validation-only bounded CPU forward checks. No backward, optimizer, training, test evaluation, or saved altered weights."
+}

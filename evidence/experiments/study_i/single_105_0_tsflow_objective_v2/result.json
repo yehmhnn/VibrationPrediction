@@ -1,0 +1,70 @@
+{
+  "epochs_completed": 137,
+  "optimizer_steps": 9590,
+  "best_epoch": 127,
+  "best_validation_forecast_RMSE": 0.578684286850284,
+  "termination_reason": "practical_stabilization",
+  "assessment": {
+    "status": "practical_stabilization",
+    "stop": true,
+    "patience_counter": 10,
+    "mathematical_convergence_demonstrated": false,
+    "rmse_relative_range": 0.016040630881358972,
+    "training_loss_relative_trend": 0.013204510588876736,
+    "validation_loss_relative_trend": 0.016906027382112235,
+    "gap_relative_increase": 0.0034744293744517272
+  },
+  "criterion": {
+    "min_delta": 0.001,
+    "patience": 10,
+    "window": 10,
+    "min_epochs": 20,
+    "rmse_relative_range": 0.02,
+    "loss_relative_trend": 0.02,
+    "gap_relative_increase": 0.05,
+    "stop_policy": "stabilization"
+  },
+  "training_seconds": 307.736390769016,
+  "optimization_seconds": 171.22849514428526,
+  "test_evaluated": false,
+  "in_condition_reference_evaluated": false,
+  "best_validation_record_metrics": {
+    "pooled": {
+      "MAE": 0.41036015436997425,
+      "MSE": 0.3348755038474217,
+      "RMSE": 0.578684286850284,
+      "num_target_elements": 23232,
+      "num_windows": 242
+    },
+    "equal_record": {
+      "MAE": 0.41036015894865624,
+      "RMSE": 0.5786842888868444,
+      "definition": "arithmetic mean of per-record MAEs/RMSEs; RMSE is not sqrt(mean record MSE)",
+      "num_records": 1
+    },
+    "per_record": {
+      "105_0_validation": {
+        "MAE": 0.41036015894865624,
+        "MSE": 0.3348755062044729,
+        "RMSE": 0.5786842888868444,
+        "num_target_elements": 23232,
+        "num_windows": 242,
+        "fault_type": "inner_race_fault",
+        "load": 0,
+        "RPM": 1797.0,
+        "parent_record_id": "105_0"
+      }
+    },
+    "per_fault_type": {
+      "inner_race_fault": {
+        "MAE": 0.41036015894865624,
+        "MSE": 0.3348755062044729,
+        "RMSE": 0.5786842888868444,
+        "num_target_elements": 23232,
+        "num_windows": 242
+      }
+    }
+  },
+  "validation_seconds": 135.99250735342503,
+  "total_elapsed_seconds": 307.7364076380618
+}

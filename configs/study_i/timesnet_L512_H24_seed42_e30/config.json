@@ -1,0 +1,20 @@
+{
+  "dataset_dir": "./datasets/processed/cwru_105_0_chronological",
+  "L": 512,
+  "H": 24,
+  "seed": 42,
+  "train_stride": 32,
+  "eval_stride": 24,
+  "epochs": 30,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "architecture": "TimesNetLightning defaults from run_experiments.py",
+  "optimizer": "AdamW",
+  "selection_metric": "validation RMSE (sqrt val_loss)",
+  "normalization": "training-only z-score in processed dataset",
+  "num_origins": {
+    "train": 2212,
+    "validation": 969,
+    "test": 969
+  }
+}

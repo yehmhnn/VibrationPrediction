@@ -1,0 +1,139 @@
+{
+  "epochs_completed": 100,
+  "optimizer_steps": 49700,
+  "best_epoch": 70,
+  "best_validation_forecast_RMSE": 0.8758024275384576,
+  "termination_reason": "maximum_epoch_budget",
+  "assessment": {
+    "status": "patience_exhausted_without_stabilization",
+    "stop": false,
+    "patience_counter": 30,
+    "mathematical_convergence_demonstrated": false,
+    "rmse_relative_range": 0.019441882397036044,
+    "training_loss_relative_trend": 0.02500676642341399,
+    "validation_loss_relative_trend": 0.007576467116630555,
+    "gap_relative_increase": 0.03604616693193858
+  },
+  "criterion": {
+    "min_delta": 0.001,
+    "patience": 10,
+    "window": 10,
+    "min_epochs": 20,
+    "rmse_relative_range": 0.02,
+    "loss_relative_trend": 0.02,
+    "gap_relative_increase": 0.05,
+    "stop_policy": "none"
+  },
+  "training_seconds": 3453.319350519683,
+  "optimization_seconds": 3375.3582766987383,
+  "test_evaluated": false,
+  "in_condition_reference_evaluated": false,
+  "best_validation_record_metrics": {
+    "pooled": {
+      "MAE": 0.4629193033490862,
+      "MSE": 0.7670298920822552,
+      "RMSE": 0.8758024275384576,
+      "num_target_elements": 208992,
+      "num_windows": 2177
+    },
+    "equal_record": {
+      "MAE": 0.46276189965147135,
+      "RMSE": 0.7454227574772189,
+      "definition": "arithmetic mean of per-record MAEs/RMSEs; RMSE is not sqrt(mean record MSE)",
+      "num_records": 6
+    },
+    "per_record": {
+      "105_0_validation": {
+        "MAE": 0.4171408312846301,
+        "MSE": 0.3339929507049011,
+        "RMSE": 0.5779212322669077,
+        "num_target_elements": 34656,
+        "num_windows": 361,
+        "fault_type": "inner_race_fault",
+        "load": 0,
+        "RPM": 1797.0,
+        "parent_record_id": "105_0"
+      },
+      "106_1_validation": {
+        "MAE": 0.34325429572279603,
+        "MSE": 0.21977200513381934,
+        "RMSE": 0.46879846963681454,
+        "num_target_elements": 34848,
+        "num_windows": 363,
+        "fault_type": "inner_race_fault",
+        "load": 1,
+        "RPM": 1772.0,
+        "parent_record_id": "106_1"
+      },
+      "118_0_validation": {
+        "MAE": 0.2634192211447758,
+        "MSE": 0.11085686206402266,
+        "RMSE": 0.3329517413440312,
+        "num_target_elements": 35040,
+        "num_windows": 365,
+        "fault_type": "ball_fault",
+        "load": 0,
+        "RPM": 1796.0,
+        "parent_record_id": "118_0"
+      },
+      "119_1_validation": {
+        "MAE": 0.26299761844609576,
+        "MSE": 0.10943083729278172,
+        "RMSE": 0.3308033211634698,
+        "num_target_elements": 34656,
+        "num_windows": 361,
+        "fault_type": "ball_fault",
+        "load": 1,
+        "RPM": 1772.0,
+        "parent_record_id": "119_1"
+      },
+      "130@6_0_validation": {
+        "MAE": 0.7764046292187783,
+        "MSE": 2.0925114412693735,
+        "RMSE": 1.4465515688247597,
+        "num_target_elements": 34848,
+        "num_windows": 363,
+        "fault_type": "outer_race_fault",
+        "load": 0,
+        "RPM": 1796.0,
+        "parent_record_id": "130@6_0"
+      },
+      "131@6_1_validation": {
+        "MAE": 0.7133548020917523,
+        "MSE": 1.7305671168957826,
+        "RMSE": 1.31551021162733,
+        "num_target_elements": 34944,
+        "num_windows": 364,
+        "fault_type": "outer_race_fault",
+        "load": 1,
+        "RPM": 1773.0,
+        "parent_record_id": "131@6_1"
+      }
+    },
+    "per_fault_type": {
+      "inner_race_fault": {
+        "MAE": 0.3800955102777989,
+        "MSE": 0.2767247141823836,
+        "RMSE": 0.5260463042189191,
+        "num_target_elements": 69504,
+        "num_windows": 724
+      },
+      "ball_fault": {
+        "MAE": 0.263209581235377,
+        "MSE": 0.11014777812129817,
+        "RMSE": 0.33188518816195783,
+        "num_target_elements": 69696,
+        "num_windows": 726
+      },
+      "outer_race_fault": {
+        "MAE": 0.744836352637984,
+        "MSE": 1.9112903490107944,
+        "RMSE": 1.3824942491781997,
+        "num_target_elements": 69792,
+        "num_windows": 727
+      }
+    }
+  },
+  "validation_seconds": 69.19871208257973,
+  "total_elapsed_seconds": 3453.319402496796
+}

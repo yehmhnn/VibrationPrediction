@@ -1,0 +1,7 @@
+model,record,split,load_hp,rpm,windows,model_RMSE,zero_RMSE,RMSE_ratio,normalized_signal_RMS,source
+tsflow,105_0,train,0,1797.0,1257,0.6244755224336115,0.7103249625674091,0.8791406121734733,0.7103105737808213,"new CPU inference, complete record, stride96"
+tsflow,106_1,train,1,1772.0,1265,0.6354919537742448,0.7144403761093928,0.8894961357516282,0.7143145318702802,"new CPU inference, complete record, stride96"
+tsflow,107_2,validation,2,1748.0,1266,0.8061921333543577,0.7304518000569163,1.1036897072353573,0.730563234429119,reused best_validation_record_metrics from original full validation pass
+timesnet,105_0,train,0,1797.0,1257,0.6629458698260997,0.7103249625674091,0.9332994119056979,0.7103105737808213,"new CPU inference, complete record, stride96"
+timesnet,106_1,train,1,1772.0,1265,0.6526291083504759,0.7144403761093928,0.9134829583743284,0.7143145318702802,"new CPU inference, complete record, stride96"
+timesnet,107_2,validation,2,1748.0,1266,0.7656053239415466,0.7304518000569163,1.0481257269567836,0.730563234429119,reused best_validation_record_metrics from original full validation pass

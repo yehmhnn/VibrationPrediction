@@ -1,0 +1,106 @@
+{
+  "scope": "Checkpoint models trained jointly on all three fault types; only selected inner-race records evaluated. No held-out recording data accessed.",
+  "device": "cpu",
+  "L": 512,
+  "H": 96,
+  "stride": 96,
+  "models": {
+    "tsflow": {
+      "checkpoint_epoch": 8,
+      "evaluation_seed": 10042,
+      "batch_size": 16,
+      "new_inference_windows": 2522,
+      "reused_validation_windows": 1266
+    },
+    "timesnet": {
+      "checkpoint_epoch": 1,
+      "evaluation_seed": 10042,
+      "batch_size": 32,
+      "new_inference_windows": 2522,
+      "reused_validation_windows": 1266
+    }
+  },
+  "rows": [
+    {
+      "model": "tsflow",
+      "record": "105_0",
+      "split": "train",
+      "load_hp": 0,
+      "rpm": 1797.0,
+      "windows": 1257,
+      "model_RMSE": 0.6244755224336115,
+      "zero_RMSE": 0.7103249625674091,
+      "RMSE_ratio": 0.8791406121734733,
+      "normalized_signal_RMS": 0.7103105737808213,
+      "source": "new CPU inference, complete record, stride96"
+    },
+    {
+      "model": "tsflow",
+      "record": "106_1",
+      "split": "train",
+      "load_hp": 1,
+      "rpm": 1772.0,
+      "windows": 1265,
+      "model_RMSE": 0.6354919537742448,
+      "zero_RMSE": 0.7144403761093928,
+      "RMSE_ratio": 0.8894961357516282,
+      "normalized_signal_RMS": 0.7143145318702802,
+      "source": "new CPU inference, complete record, stride96"
+    },
+    {
+      "model": "tsflow",
+      "record": "107_2",
+      "split": "validation",
+      "load_hp": 2,
+      "rpm": 1748.0,
+      "windows": 1266,
+      "model_RMSE": 0.8061921333543577,
+      "zero_RMSE": 0.7304518000569163,
+      "RMSE_ratio": 1.1036897072353573,
+      "normalized_signal_RMS": 0.730563234429119,
+      "source": "reused best_validation_record_metrics from original full validation pass"
+    },
+    {
+      "model": "timesnet",
+      "record": "105_0",
+      "split": "train",
+      "load_hp": 0,
+      "rpm": 1797.0,
+      "windows": 1257,
+      "model_RMSE": 0.6629458698260997,
+      "zero_RMSE": 0.7103249625674091,
+      "RMSE_ratio": 0.9332994119056979,
+      "normalized_signal_RMS": 0.7103105737808213,
+      "source": "new CPU inference, complete record, stride96"
+    },
+    {
+      "model": "timesnet",
+      "record": "106_1",
+      "split": "train",
+      "load_hp": 1,
+      "rpm": 1772.0,
+      "windows": 1265,
+      "model_RMSE": 0.6526291083504759,
+      "zero_RMSE": 0.7144403761093928,
+      "RMSE_ratio": 0.9134829583743284,
+      "normalized_signal_RMS": 0.7143145318702802,
+      "source": "new CPU inference, complete record, stride96"
+    },
+    {
+      "model": "timesnet",
+      "record": "107_2",
+      "split": "validation",
+      "load_hp": 2,
+      "rpm": 1748.0,
+      "windows": 1266,
+      "model_RMSE": 0.7656053239415466,
+      "zero_RMSE": 0.7304518000569163,
+      "RMSE_ratio": 1.0481257269567836,
+      "normalized_signal_RMS": 0.730563234429119,
+      "source": "reused best_validation_record_metrics from original full validation pass"
+    }
+  ],
+  "elapsed_seconds": 163.4986059772782,
+  "existing_artifacts_unchanged": true,
+  "caveat": "107_2 metrics reuse original full-validation batching and CUDA execution. New seen-record metrics use CPU and per-record batching. TSFlow fixed-seed draw assignment depends on batching; identical windows, not identical random draws across recordings. TimesNet uses batch-dependent period selection."
+}

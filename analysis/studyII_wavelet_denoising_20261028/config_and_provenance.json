@@ -1,0 +1,185 @@
+{
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "PyWavelets": "1.6.0",
+    "scikit-image": "0.24.0",
+    "matplotlib": "3.9.4"
+  },
+  "signature": "(image, sigma=None, wavelet='db1', mode='soft', wavelet_levels=None, convert2ycbcr=False, method='BayesShrink', rescale_sigma=True, *, channel_axis=None)",
+  "settings": {
+    "sigma": null,
+    "wavelet": "db4",
+    "wavelet_levels": 3,
+    "convert2ycbcr": false,
+    "method": "BayesShrink",
+    "rescale_sigma": true,
+    "channel_axis": null
+  },
+  "threshold_modes": [
+    "soft",
+    "hard"
+  ],
+  "boundary": "symmetric, inherited PyWavelets default verified by inspection",
+  "welch": {
+    "fs": 12000,
+    "window": "hann",
+    "nperseg": 8192,
+    "noverlap": 4096,
+    "nfft": 8192,
+    "detrend": "constant",
+    "scaling": "density",
+    "average": "mean",
+    "return_onesided": true
+  },
+  "main_time_interval_seconds": [
+    1,
+    1.05
+  ],
+  "impulse_window": "20 ms centered on original maximum absolute deviation from mean, clipped at endpoints",
+  "source_hashes": {
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/manifest.csv": "819fd31dbff0aa431882c159354d07c9158b11c646c74808e4fa94eefb880b24",
+    "analysis/studyII_welch_20261028/inputs/105_0.mat": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab",
+    "analysis/studyII_welch_20261028/inputs/106_1.mat": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883",
+    "analysis/studyII_welch_20261028/inputs/107_2.mat": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388",
+    "analysis/studyII_welch_20261028/inputs/118_0.mat": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e",
+    "analysis/studyII_welch_20261028/inputs/119_1.mat": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330",
+    "analysis/studyII_welch_20261028/inputs/120_2.mat": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c",
+    "analysis/studyII_welch_20261028/inputs/130@6_0.mat": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d",
+    "analysis/studyII_welch_20261028/inputs/131@6_1.mat": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb",
+    "analysis/studyII_welch_20261028/inputs/132@6_2.mat": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18"
+  },
+  "units": "original MAT numerical signal units; physical calibration not independently verified",
+  "scope": "offline full-record signal analysis; not leakage-safe forecasting preprocessing",
+  "analysis_script_sha256": "7b33868db87c976803d91108f712adb7f1a2be4421ab28ce701f7cd37e8a68d9",
+  "checks": [
+    {
+      "record_id": "105_0",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 0.0
+    },
+    {
+      "record_id": "105_0",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.3376575913611426e-17
+    },
+    {
+      "record_id": "106_1",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "record_id": "106_1",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.226535471359749e-17
+    },
+    {
+      "record_id": "107_2",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "record_id": "107_2",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 8.296370081000651e-18
+    },
+    {
+      "record_id": "118_0",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 2.2768245622195593e-18
+    },
+    {
+      "record_id": "118_0",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.7306901433099985e-18
+    },
+    {
+      "record_id": "119_1",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 2.710505431213761e-18
+    },
+    {
+      "record_id": "119_1",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 2.5808399071123987e-18
+    },
+    {
+      "record_id": "120_2",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 3.920068479892902e-18
+    },
+    {
+      "record_id": "120_2",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 6.925553134987973e-19
+    },
+    {
+      "record_id": "130@6_0",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.249000902703301e-16
+    },
+    {
+      "record_id": "130@6_0",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.3485614861958166e-16
+    },
+    {
+      "record_id": "131@6_1",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "record_id": "131@6_1",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 6.204770448521926e-17
+    },
+    {
+      "record_id": "132@6_2",
+      "method": "soft",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "record_id": "132@6_2",
+      "method": "hard",
+      "length_preserved": true,
+      "finite": true,
+      "energy_identity_absolute_error": 2.6703560695139072e-17
+    }
+  ],
+  "prior_analysis_unchanged": true
+}

@@ -1,0 +1,13 @@
+record_id,filename,fault,load_hp,rpm,fs_hz,samples,duration_s,stride,windows,assignment,verification
+105_0,105_0.mat,inner_race_fault,0,1797,12000,121265,10.105416666666667,32,3771,train,manifest and prior hash-verified MAT analysis
+106_1,106_1.mat,inner_race_fault,1,1772,12000,121991,10.165916666666666,32,3794,train,manifest and prior hash-verified MAT analysis
+107_2,107_2.mat,inner_race_fault,2,1748,12000,122136,10.178,96,1266,validation,manifest and prior hash-verified MAT analysis
+108_3,108_3.mat,inner_race_fault,3,1721,12000,122917,10.243083333333333,96,1275,reserved,manifest metadata; reserved signal not reopened
+118_0,118_0.mat,ball_fault,0,1796,12000,122571,10.21425,32,3812,train,manifest and prior hash-verified MAT analysis
+119_1,119_1.mat,ball_fault,1,1772,12000,121410,10.1175,32,3776,train,manifest and prior hash-verified MAT analysis
+120_2,120_2.mat,ball_fault,2,1748,12000,121556,10.129666666666667,96,1260,validation,manifest and prior hash-verified MAT analysis
+121_3,121_3.mat,ball_fault,3,1722,12000,121556,10.129666666666667,96,1260,reserved,manifest metadata; reserved signal not reopened
+130@6_0,130@6_0.mat,outer_race_fault,0,1796,12000,121991,10.165916666666666,32,3794,train,manifest and prior hash-verified MAT analysis
+131@6_1,131@6_1.mat,outer_race_fault,1,1773,12000,122426,10.202166666666667,32,3807,train,manifest and prior hash-verified MAT analysis
+132@6_2,132@6_2.mat,outer_race_fault,2,1750,12000,121410,10.1175,96,1259,validation,manifest and prior hash-verified MAT analysis
+133@6_3,133@6_3.mat,outer_race_fault,3,1725,12000,122571,10.21425,96,1271,reserved,manifest metadata; reserved signal not reopened

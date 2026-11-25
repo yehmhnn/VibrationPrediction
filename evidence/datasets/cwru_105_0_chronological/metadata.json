@@ -1,0 +1,27 @@
+{
+  "dataset": "CWRU Bearing Data Center",
+  "subset": "105_0 chronological regions",
+  "parent_record_id": "105_0",
+  "sampling_rate_hz": 12000,
+  "rpm": 1797,
+  "gap_samples": 1200,
+  "gap_seconds": 0.1,
+  "boundaries": {
+    "train": [
+      0,
+      71319
+    ],
+    "validation": [
+      72519,
+      96292
+    ],
+    "test": [
+      97492,
+      121265
+    ]
+  },
+  "normalization": "z-score using chronological training region only",
+  "train_mean": 0.014212163956835134,
+  "train_std": 0.2907071138920723,
+  "purpose": "within-record raw-waveform predictability without overlapping split regions"
+}

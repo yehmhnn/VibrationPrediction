@@ -1,0 +1,12 @@
+{
+  "hostname": "<RESEARCH_HOST>",
+  "project_root": ".",
+  "python": "./.pixi/envs/default/bin/python",
+  "pytorch": "2.5.1.post306",
+  "torch_cuda": "12.6",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "vram_bytes": 25438126080,
+  "disk_free_bytes": 843834318848,
+  "full_training_started": false
+}

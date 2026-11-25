@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "counts": {
+    "studyII": {
+      "train": 22754,
+      "validation": 3785
+    },
+    "same_condition": {
+      "train": 15894,
+      "validation": 2177
+    }
+  },
+  "same_condition_mu": 0.011114089694535808,
+  "same_condition_std": 0.4103393897793328,
+  "same_condition_training_samples": 512155,
+  "gap_samples": 1200,
+  "studyII_train_norm_recomputed": true,
+  "reserved_payloads_accessed": false
+}

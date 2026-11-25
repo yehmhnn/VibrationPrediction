@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "wall_seconds": 3453.337903626263,
+  "peak_allocated_bytes": 1852594176,
+  "peak_reserved_bytes": 1967128576,
+  "checkpoint_bytes": 12069780,
+  "optimizer_steps": 49700,
+  "full_window_counts": {
+    "train": 15894,
+    "validation": 2177
+  },
+  "smoke": false,
+  "test_access": false
+}

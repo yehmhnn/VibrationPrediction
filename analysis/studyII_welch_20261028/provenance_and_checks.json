@@ -1,0 +1,78 @@
+{
+  "authorized_record_count": 9,
+  "no_test_signal_opened": true,
+  "source_hashes_all_match": true,
+  "band_power_sum_matches_total": true,
+  "unit_area_integrals": [
+    1.0000000000000002,
+    0.9999999999999998,
+    0.9999999999999998,
+    0.9999999999999998,
+    0.9999999999999998,
+    1.0000000000000002,
+    1.0000000000000002,
+    0.9999999999999997,
+    1.0000000000000002
+  ],
+  "frequency_resolution_hz": 1.46484375,
+  "welch": {
+    "window": "hann",
+    "nperseg": 8192,
+    "noverlap": 4096,
+    "nfft": 8192,
+    "detrend": "constant",
+    "scaling": "density"
+  },
+  "average": "mean",
+  "return_onesided": true,
+  "smoothing": "none",
+  "power_integration": "sum of one-sided PSD bins * df, including DC and Nyquist; bands partition bins without overlap",
+  "units": "original MAT numerical acceleration units; physical calibration not independently verified; model PSD = original PSD/train_std\u00b2",
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4"
+  },
+  "source_sha256": {
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/manifest.csv": "819fd31dbff0aa431882c159354d07c9158b11c646c74808e4fa94eefb880b24",
+    "VibrationPrediction_Report_TwoStudies_20261016/data/spectral_method.json": "56facc55a14d03de29011c5bd58704baca2b26fc0b3fd1b60feb08a4fd23b4d9",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/datasets/processed/cwru_multi_record_B/normalization.json": "2bde77cfd9d52935fd4d672b342c54a36c85202faa5c6491b64654dc8b7ff30f",
+    "analysis/studyII_welch_20261028/inputs/105_0.mat": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab",
+    "analysis/studyII_welch_20261028/inputs/106_1.mat": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883",
+    "analysis/studyII_welch_20261028/inputs/107_2.mat": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388",
+    "analysis/studyII_welch_20261028/inputs/118_0.mat": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e",
+    "analysis/studyII_welch_20261028/inputs/119_1.mat": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330",
+    "analysis/studyII_welch_20261028/inputs/120_2.mat": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c",
+    "analysis/studyII_welch_20261028/inputs/130@6_0.mat": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d",
+    "analysis/studyII_welch_20261028/inputs/131@6_1.mat": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb",
+    "analysis/studyII_welch_20261028/inputs/132@6_2.mat": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_tsflow_objective_v1/result.json": "7e81e974270f446358a7fd6c11a67bbbbb55089e455bf54b851830f7a223c8fe",
+    "VibrationPrediction_Report_TwoStudies_20261016/evidence/logs/convergence/multi_record_B_timesnet_objective_v1/result.json": "0043788246a0ed7b4a95df94d5e4025677d027aca0db222ed794976947b5df02"
+  },
+  "analysis_script_sha256": "27da154e82663fa5f5b3545a26ea9d4c6c0935b4da21c9e4797701f6e4ecdfb2",
+  "training_shape_comparisons": [
+    {
+      "fault_type": "inner_race_fault",
+      "record_0hp": "105_0",
+      "record_1hp": "106_1",
+      "shape_total_variation": 0.8393158049037974,
+      "shape_jensen_shannon_distance_base2": 0.8445447405501789
+    },
+    {
+      "fault_type": "ball_fault",
+      "record_0hp": "118_0",
+      "record_1hp": "119_1",
+      "shape_total_variation": 0.6183355302594686,
+      "shape_jensen_shannon_distance_base2": 0.6313159604950709
+    },
+    {
+      "fault_type": "outer_race_fault",
+      "record_0hp": "130@6_0",
+      "record_1hp": "131@6_1",
+      "shape_total_variation": 0.7891869052735854,
+      "shape_jensen_shannon_distance_base2": 0.7892497218656067
+    }
+  ],
+  "max_absolute_welch_vs_time_variance_relative_difference": 0.004196225587697722
+}

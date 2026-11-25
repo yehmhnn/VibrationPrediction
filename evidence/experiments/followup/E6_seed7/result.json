@@ -1,0 +1,106 @@
+{
+  "epochs_completed": 100,
+  "optimizer_steps": 71200,
+  "best_epoch": 9,
+  "best_validation_forecast_RMSE": 1.0480745043695254,
+  "termination_reason": "maximum_epoch_budget",
+  "assessment": {
+    "status": "patience_exhausted_without_stabilization",
+    "stop": false,
+    "patience_counter": 91,
+    "mathematical_convergence_demonstrated": false,
+    "rmse_relative_range": 0.02781641132338373,
+    "training_loss_relative_trend": 0.020605793408209633,
+    "validation_loss_relative_trend": 0.008499326119748461,
+    "gap_relative_increase": 0.0054722622647756375
+  },
+  "criterion": {
+    "min_delta": 0.001,
+    "patience": 10,
+    "window": 10,
+    "min_epochs": 20,
+    "rmse_relative_range": 0.02,
+    "loss_relative_trend": 0.02,
+    "gap_relative_increase": 0.05,
+    "stop_policy": "none"
+  },
+  "training_seconds": 4421.633595420979,
+  "optimization_seconds": 4292.863011141308,
+  "test_evaluated": false,
+  "in_condition_reference_evaluated": false,
+  "best_validation_record_metrics": {
+    "pooled": {
+      "MAE": 0.6007779613983678,
+      "MSE": 1.0984601667094263,
+      "RMSE": 1.0480745043695254,
+      "num_target_elements": 363360,
+      "num_windows": 3785
+    },
+    "equal_record": {
+      "MAE": 0.6008630250075923,
+      "RMSE": 0.9171079142420729,
+      "definition": "arithmetic mean of per-record MAEs/RMSEs; RMSE is not sqrt(mean record MSE)",
+      "num_records": 3
+    },
+    "per_record": {
+      "107_2": {
+        "MAE": 0.6010521189769303,
+        "MSE": 0.673972054891097,
+        "RMSE": 0.8209580104311651,
+        "num_target_elements": 121536,
+        "num_windows": 1266,
+        "fault_type": "inner_race_fault",
+        "load": 2,
+        "RPM": 1748.0,
+        "parent_record_id": "107_2"
+      },
+      "120_2": {
+        "MAE": 0.27757346266265664,
+        "MSE": 0.12122823470191335,
+        "RMSE": 0.3481784523802605,
+        "num_target_elements": 120960,
+        "num_windows": 1260,
+        "fault_type": "ball_fault",
+        "load": 2,
+        "RPM": 1748.0,
+        "parent_record_id": "120_2"
+      },
+      "132@6_2": {
+        "MAE": 0.92396349338319,
+        "MSE": 2.5033165887241724,
+        "RMSE": 1.5821872799147934,
+        "num_target_elements": 120864,
+        "num_windows": 1259,
+        "fault_type": "outer_race_fault",
+        "load": 2,
+        "RPM": 1750.0,
+        "parent_record_id": "132@6_2"
+      }
+    },
+    "per_fault_type": {
+      "inner_race_fault": {
+        "MAE": 0.6010521189769303,
+        "MSE": 0.673972054891097,
+        "RMSE": 0.8209580104311651,
+        "num_target_elements": 121536,
+        "num_windows": 1266
+      },
+      "ball_fault": {
+        "MAE": 0.27757346266265664,
+        "MSE": 0.12122823470191335,
+        "RMSE": 0.3481784523802605,
+        "num_target_elements": 120960,
+        "num_windows": 1260
+      },
+      "outer_race_fault": {
+        "MAE": 0.92396349338319,
+        "MSE": 2.5033165887241724,
+        "RMSE": 1.5821872799147934,
+        "num_target_elements": 120864,
+        "num_windows": 1259
+      }
+    }
+  },
+  "validation_seconds": 120.48343741893768,
+  "total_elapsed_seconds": 4421.6336379619315
+}

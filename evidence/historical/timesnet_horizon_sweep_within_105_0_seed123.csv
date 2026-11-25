@@ -1,0 +1,5 @@
+dataset,model,L,H,MAE,RMSE,seed,train_stride,eval_stride,epochs,best_val_loss,training_seconds,run_id
+cwru_105_0_chronological,timesnet,512,12,0.450409,0.641452,123,32,12,5,0.244965,31.749,cwru_105_0_chronological_timesnet_L512_H12_seed123
+cwru_105_0_chronological,timesnet,512,24,0.520156,0.749781,123,32,24,5,0.319018,31.452,cwru_105_0_chronological_timesnet_L512_H24_seed123
+cwru_105_0_chronological,timesnet,512,48,0.555749,0.786542,123,32,48,5,0.359091,31.493,cwru_105_0_chronological_timesnet_L512_H48_seed123
+cwru_105_0_chronological,timesnet,512,96,0.577843,0.797018,123,32,96,5,0.371995,27.641,cwru_105_0_chronological_timesnet_L512_H96_seed123

@@ -1,0 +1,4 @@
+fault_type,record_0hp,record_1hp,shape_total_variation,shape_jensen_shannon_distance_base2
+inner_race_fault,105_0,106_1,0.8393158049037974,0.8445447405501789
+ball_fault,118_0,119_1,0.6183355302594686,0.6313159604950709
+outer_race_fault,130@6_0,131@6_1,0.7891869052735854,0.7892497218656067

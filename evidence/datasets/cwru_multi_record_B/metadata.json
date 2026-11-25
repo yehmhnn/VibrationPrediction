@@ -1,0 +1,53 @@
+{
+  "protocol": "multi_record_B",
+  "dataset": "CWRU",
+  "sampling_rate_hz": 12000,
+  "normalization": "z-score using training recordings only",
+  "train_mean": 0.010496160688842994,
+  "train_std": 0.41000491194742045,
+  "normalization_provenance": "normalization.json",
+  "normalization_sha256": "2bde77cfd9d52935fd4d672b342c54a36c85202faa5c6491b64654dc8b7ff30f",
+  "metadata_authority": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+  "split_record_ids": {
+    "train": [
+      "105_0",
+      "106_1",
+      "118_0",
+      "119_1",
+      "130@6_0",
+      "131@6_1"
+    ],
+    "validation": [
+      "107_2",
+      "120_2",
+      "132@6_2"
+    ],
+    "test": [
+      "108_3",
+      "121_3",
+      "133@6_3"
+    ]
+  },
+  "windowing": {
+    "L": 512,
+    "H": 96,
+    "train_stride": 32,
+    "eval_stride": 96
+  },
+  "processed_sha256": {
+    "105_0.npy": "2088f4305fdfbaf34ad2d71218ca9c907609734be11e6e3225bc9eb457daf504",
+    "106_1.npy": "e3f322c8d38faced8747602f0e090ce67c8530066ee93decdf5bd4fd940396ee",
+    "107_2.npy": "bb69ede2ffe40490ced5d9daa38fc07dac39d2d09c8b8ecb03e5ef2176af0faa",
+    "108_3.npy": "f6106221d80943728c72320bf3b04db90230f4b63389b569fd40821f94e47545",
+    "118_0.npy": "35c557ed4185c6e2e0300447d8b6885aee39663f5cc8623384059be57faf8ede",
+    "119_1.npy": "0ca7eae3a027eed2af7d64b00ba29a74907292eaa7ce93a7e4e43ad1be527e08",
+    "120_2.npy": "e4ff2bb090e82a6a927ddedab68b942c79f8a07de99414a7d7b44af102b56df1",
+    "121_3.npy": "f8f7b0b6f73cfee9f10fc03ca63671249abe0471a1df9ec40aa4d3cc4fe9db97",
+    "130@6_0.npy": "8bb38bb6e8c1b908dddf91bd1a6f0933f20106a76360244c63e4960e91764dd5",
+    "131@6_1.npy": "1eef2717615d35a42da90176c7804145d082f4331d27e6b4c1e3f97e207e9721",
+    "132@6_2.npy": "eb46a935d2373d71d5828fca89b5f5aff123a2e381a3633dc53adaadc9e34c74",
+    "133@6_3.npy": "f602b160b15fe1f672309222ef9eb3e08e8feb0df98d022a253e89e96293eab3"
+  },
+  "manifest_sha256": "819fd31dbff0aa431882c159354d07c9158b11c646c74808e4fa94eefb880b24",
+  "scope": "joint load/RPM shift; seen fault types and diameter; separate records"
+}
